@@ -17,7 +17,7 @@ public class DictionaryReader {
             words.add(line);
         }
         reader.close();
-        System.out.printf("The count of words is: %s\n", words.size());
+        System.out.printf("..............The count of words is: %s\n", words.size());
         System.out.println("..............Dictionary have read");
         return words;
     }

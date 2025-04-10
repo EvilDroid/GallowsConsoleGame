@@ -12,7 +12,7 @@ public class WordRandomSelector {
 
     private static int getRandomNumberFromOneToMax (int max){
         int number = (int)(Math.random() * max + 1);
-        System.out.printf( "Random number is: %d\n", number);
+        System.out.printf( "..............Random number is: %d\n", number);
         return number;
     }
 
