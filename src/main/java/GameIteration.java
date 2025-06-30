@@ -22,6 +22,12 @@ public class GameIteration {
             mask = fillWordMaskByLetter(mask, word, letter);
         } else {
             System.out.println("Увы. Вы не угадали");
+
+            if(errors.contains(letter.charAt(0))){
+                System.out.println("Было!");
+                continue;
+            }
+
             errors.add(letter.charAt(0));
             currentStep++;
 
